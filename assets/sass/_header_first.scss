@@ -1,7 +1,4 @@
-.header{
-        padding: 10px 0;
-    border-bottom: 1px solid $eightF;
-}
+
 
 .first_header{
     display: flex;
@@ -9,12 +6,12 @@
     gap: 10px;
     align-items: center;
     padding: 10px 0;
-    // border-bottom: 1px solid $eightF;
+    border-bottom: 1px solid $eightF;
 }
 
 .first_navbar_left ul{
     display: flex;
-    gap:10px;   
+    gap: 20px;   
 }
 
 .first_navbar_left ul li a{
@@ -95,7 +92,7 @@ transition: 0.3s;
 
 
 // media
-@media(min-width:1350px){
+@media(min-width:1380px){
     .menu, .logout{
         display: none;
     }
@@ -105,7 +102,7 @@ transition: 0.3s;
 
 }
 
-@media(max-width:1350px){
+@media(max-width:1380px){
 
     .menu{
         display: inline-block;
