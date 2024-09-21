@@ -6,6 +6,7 @@
     <title>Стройоптторг</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="shortcut icon" href="./svg/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -96,5 +97,60 @@
 
         </div>
     </header>
+<!-- end of tough header -->
+
+<main>
+    <section class="showcase">
+        <div class="container">
+           
+             <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+         <div class="showcase_title">
+                <h1>Электроинструмент для любых нужд</h1>
+                <h3>У нас обновился ассортимент сантехники, мебели для ванной комнаты, а так же других сопутствующих товаров.</h3>
+                <button class="showcase_button">перейти к товарам      ></button>
+            </div>
+      </div>
+      <div class="swiper-slide">
+         <div class="showcase_title">
+                <h1>Электроинструмент для любых нужд</h1>
+                <h3>У нас обновился ассортимент сантехники, мебели для ванной комнаты, а так же других сопутствующих товаров.</h3>
+                <button class="showcase_button">перейти к товарам      ></button>
+            </div>
+      </div>
+      <div class="swiper-slide">
+         <div class="showcase_title">
+                <h1>Электроинструмент для любых нужд</h1>
+                <h3>У нас обновился ассортимент сантехники, мебели для ванной комнаты, а так же других сопутствующих товаров.</h3>
+                <button class="showcase_button">перейти к товарам      ></button>
+            </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+
+        </div>
+    </section>
+
+
+
+</main>
+ <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
 </body>
 </html>

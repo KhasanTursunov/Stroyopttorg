@@ -116,6 +116,7 @@ transition: 0.3s;
     height: 100vh;
     flex-direction: column;
     transition: 0.6s linear;
+    z-index: 999;
 }
 #check:checked ~ .links{
     left: 0;
