@@ -596,6 +596,55 @@
           </div>
         </div>
       </section>
+
+      <section class="brands">
+        <div class="container">
+
+          <div class="brands_title">
+            <h2>Популярные бренды</h2>
+          </div>
+        
+          <div class="brand_cards">
+              <!-- Swiper -->
+  <div class="swiper mySwiper5">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img src="./svg/f1.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./svg/f2.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./svg/f3.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./svg/f4.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./svg/f5.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./svg/f6.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./svg/f7.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./svg/f1.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./svg/f2.svg" alt="">
+      </div>
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+          </div>
+
+
+        </div>
+      </section>
+
     </main>
 
     <!-- Swiper JS -->
@@ -715,5 +764,39 @@
         },
       });
     </script>
+
+      <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper5", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      autoplay: {
+          delay: 2200,
+          disableOnInteraction: false,
+        },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        340: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
   </body>
 </html>

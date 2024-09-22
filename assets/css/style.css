@@ -837,5 +837,22 @@ a {
     display: none;
   }
 }
+.brands {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.brands_title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.brands_title h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: left;
+  color: #2C333D;
+}
 
 /*# sourceMappingURL=style.css.map */
