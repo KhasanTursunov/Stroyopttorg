@@ -258,8 +258,93 @@
            
           <!-- </div> -->
         </div>
-      </section>
+          </section>
+
+          <section class="discount">
+            <div class="container">
+              <div class="discount_cards">
+
+                  <!-- Swiper -->
+  <div class="swiper mySwiper3">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+                <div class="discount_card">
+                  <h2>Метизные изделия</h2>
+                  <button class="discount_button" type="button">до -15%</button>
+                </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="discount_card2">
+                  <h2>Лакокрасочные материалы</h2>
+                  <button class="discount_button" type="button">до -30%</button>
+                </div>
+      </div>
+
+      <div class="swiper-slide">
+         <div class="discount_card3">
+                  <h2>Напольные покрытия</h2>
+                  <button class="discount_button" type="button">до -25%</button>
+                </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="discount_card4">
+                  <h2>Все для отоплления</h2>
+                  <button class="discount_button" type="button">до -30%</button>
+                </div>
+      </div>
+
+      <div class="swiper-slide">
+                <div class="discount_card">
+                  <h2>Метизные изделия</h2>
+                  <button class="discount_button" type="button">до -15%</button>
+                </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="discount_card2">
+                  <h2>Лакокрасочные материалы</h2>
+                  <button class="discount_button" type="button">до -30%</button>
+                </div>
+      </div>
+
+      <div class="swiper-slide">
+         <div class="discount_card3">
+                  <h2>Напольные покрытия</h2>
+                  <button class="discount_button" type="button">до -25%</button>
+                </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="discount_card4">
+                  <h2>Все для отоплления</h2>
+                  <button class="discount_button" type="button">до -30%</button>
+                </div>
+      </div>
+
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+
+               
+                
+
+               
+
+               
+
+                
+
+              </div>
+            </div>
+          </section>
+
+
     </main>
+
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -311,6 +396,35 @@
         1024: {
           slidesPerView: 5,
           spaceBetween: 40,
+        },
+      },
+    });
+  </script>
+
+   <script>
+    var swiper = new Swiper(".mySwiper3", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+         autoplay: {
+        delay: 3500,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        722: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1050: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1340: {
+          slidesPerView: 4,
+          spaceBetween: 50,
         },
       },
     });
