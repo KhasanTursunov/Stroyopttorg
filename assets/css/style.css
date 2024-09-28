@@ -27,6 +27,52 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 500px) {
+  .header, main, .footer {
+    display: none;
+  }
+}
+@media (min-width: 500px) {
+  .mobile {
+    display: none;
+  }
+}
+.h1_wrapper h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+
+.h1_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.h1_wrapper .red {
+  color: orange;
+}
+
+.h1_wrapper .yellow {
+  color: green;
+}
+
+.h1_wrapper .green {
+  color: purple;
+}
+
+.h1_wrapper .purple {
+  color: greenyellow;
+}
+
+.h1_wrapper .red {
+  color: red;
+}
+
 .first_header {
   display: flex;
   justify-content: space-between;
